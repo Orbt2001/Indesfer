@@ -1,6 +1,6 @@
 <?php
 // var_dump($_POST['p2']);
-$to      = 'comercial@indesfer.com.br';
+$to      = 'gabriellb438@gmail.com';
 $subject = '[CONTATO] '.$_POST['p3'];
 $html = "
 <html>
