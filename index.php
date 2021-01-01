@@ -8,7 +8,7 @@ $arr_produtos = [
 		'nome'=>'Telha Termoacústica',
 		'descricao'=>$text_termo,
 		'codigo'=>'0001',
-		'tamanho'=>'Sob Medida',
+		'tamanho'=>'Sob Medidaa',
 		'imagem'=>['1'=>'img/catalogo/termo.webp','2'=>'img/catalogo/Telha_Bandeja_Trapezio40_Lado.png'],
 	],
 	'zinco' =>[
