@@ -102,8 +102,9 @@ jQuery(document).ready(function( $ ) {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
-    }if($(this).scrollTop() < 90){
+    } else {
       $('#header').removeClass('header-scrolled');
+      ($(this).scrollTop())=50;
     }
   });
 
