@@ -45,7 +45,7 @@ include_once('master.php');
 						<div class="carousel-content">
 							<h2>Bem vindo a Indesfer</h2>
 							<p>Lider de mercado a mais de 20 anos em produtos para serralheria, corte e dobra.</p>
-							<a href="#catalogo" class="btn-get-started scrollto">Catalogo</a>
+							<a href="index.php#catalogo" class="btn-get-started scrollto">Catalogo</a>
 						</div>
 					</div>
 				</div>
