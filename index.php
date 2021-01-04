@@ -274,8 +274,7 @@ include_once('master.php');
 	<!--=========================
       Contact Section
       ============================-->
-	  <span id="contact"></span>
-	<section class="section-bg wow fadeInUp">
+	<section id="contact" class="section-bg wow fadeInUp">
 		<div class="container">
 			<div class="section-header">
 				<h3>Contatos</h3>
