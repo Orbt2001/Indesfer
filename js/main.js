@@ -102,7 +102,7 @@ jQuery(document).ready(function( $ ) {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
-    } else {
+    }if($(this).scrollTop() < 90){
       $('#header').removeClass('header-scrolled');
     }
   });
