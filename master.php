@@ -63,7 +63,7 @@
     <script src="js/main.js"></script>
 </head>
 <script>
-aler('Em desenvolvimento');
+alert('Em desenvolvimento');
 </script>
 <!--==========================
     Header
