@@ -6,12 +6,12 @@
     		<div class="container">
     			<div class="row">
 
-    				<div class="col-lg-3 col-md-6">
+    				<div class="col-lg-6 col-md-7">
     					<h3>Sobre</h3>
     					<p>A Indesfer atua no mercado de corte e dobra de chapas, fabricação de telhas galvanizadas e termoacústica, além de perfis estruturais que atendem as mais variadas necessidades do mercado. A cada ano, a indesfer tem se aperfeiçoado através de lançamentos de novos produtos e adaptações às normas técnicas de qualidade exigidas pelo mercado.</p>
     				</div>
 
-    				<div class="col-lg-3 col-md-6 footer-links">
+    				<div class="col-lg-3 col-md-5 footer-links">
     					<h4>Mapa do site</h4>
     					<ul>
     						<li><i class="ion-ios-arrow-right"></i> <a href="#">Inicio</a></li>

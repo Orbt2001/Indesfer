@@ -104,7 +104,6 @@ jQuery(document).ready(function( $ ) {
       $('#header').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
-      ($(this).scrollTop())=50;
     }
   });
 
