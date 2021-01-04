@@ -67,9 +67,16 @@ include_once('master.php');
             ?>
         </div>
     </div>
-    <?php
+    
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+        <?php
     include_once('footer.php');
     ?>
+        </div>
+    </div>
 </div>
 
 <!-- Whatsapp -->
