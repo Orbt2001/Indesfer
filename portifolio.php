@@ -69,7 +69,7 @@ include_once('master.php');
     </div>
     
 </div>
-<div class="container-fluid">
+<div class="container-fluid m-0 p-0">
     <div class="row m-0">
         <div class="col-12 p-0 m-0">
         <?php
