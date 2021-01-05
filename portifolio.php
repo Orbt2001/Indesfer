@@ -2,7 +2,7 @@
 $text_termo = 'As telhas termoacústica são usadas quando se exige um excelente desempenho termoacústico. Oferecem maior resistência nas trocas de calor externo e interno, possibilitando significativa redução da utilização de equipamentos para refrigeração. Tem como característica ser retardante na ação de chamas e não absorver a água.';
 $text_zinco = 'As telhas de zinco oferecem tudo o que uma obra precisa, versatilidade, praticidade e economia, protegendo o aço da corrosão atmosférica.';
 $text_calhas = 'As calhas são os canais responsáveis pela coleta das águas pluviais (provindas das chuvas) e que correm pelos telhados e terraços de casas ou construções. Normalmente, as calhas são produzidas em aço galvanizado, ou seja, revestidos com uma camada de zinco para evitar a corrosão.';
-
+$text_chapas = 'São produzidas pelo processo de corte transversal, disponibilizados em diversos comprimentos e larguras.';
 $arr_produtos = [
     'termo' => [
         'nome' => 'Telha Termoacústica',
@@ -25,6 +25,13 @@ $arr_produtos = [
         'tamanho' => 'Sob Medida',
         'imagem' => ['1' => 'img/catalogo/calhas.webp', '2' => 'img/catalogo/calhas-2.png'],
     ],
+    'parafusos'=>[
+        'nome'=>'Chapas Dobradas',
+        'descricao' => $text_chapas,
+        'codigo'=> '0004',
+        'tamanho' => 'Até 3m',
+        'imagem'=> ['1'=>'img/catalogo/chapas.webp'],
+    ]
 ];
 include_once('master.php');
 ?>
