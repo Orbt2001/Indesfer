@@ -62,9 +62,6 @@
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
 </head>
-<script>
-alert('Em desenvolvimento');
-</script>
 <!--==========================
     Header
     ============================-->
