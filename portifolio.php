@@ -23,11 +23,11 @@ include_once('master.php');
 
                                 <div class="row">
                                     <div class="col-12">
-                                        <h4 class="card-title"><?= $value['nome'] ?></h4>
+                                        <h4 class="card-title"><?=$value['nome'] ?></h4>
                                         <span class="card-text text-muted m-0"><?= $value['descricao'] ?></span>
                                     </div>
                                     <div class="col-12 alinha-btn-center-small">
-                                        <a href="index?id=<?=$value=['nome']?>" class="btn btn-primary mt-4">Solicitar Orçamento</a>
+                                        <a href="index?id=<?=$value['nome']?>" class="btn btn-primary mt-4">Solicitar Orçamento</a>
                                     </div>
                                 </div>
 
