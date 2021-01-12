@@ -332,6 +332,13 @@ include_once('footer.php');
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <script>
+$('document').ready(function()
+{
+    $('textarea').each(function(){
+            $(this).val($(this).val().trim());
+        }
+    );
+});
 	$("#enviarEmail").click(function() {
 		$
 		$.ajax({
