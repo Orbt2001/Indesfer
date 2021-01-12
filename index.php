@@ -298,7 +298,13 @@ include_once('master.php');
 							<div class="validation"></div>
 						</div>
 						<div class="form-group">
-							<textarea class="form-control" name="mensagem" id="mensagem" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+							<textarea class="form-control" name="mensagem" id="mensagem" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem">
+							<?php
+								if($_GET['id']){
+									echo $_GET['id'];
+								}
+							?>
+							</textarea>
 							<div class="validation"></div>
 						</div>
 						<div class="text-center"><button class="btn btn-primary px-4" id="enviarEmail">Enviar</button></div>
