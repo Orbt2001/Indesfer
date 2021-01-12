@@ -27,7 +27,7 @@ include_once('master.php');
                                         <span class="card-text text-muted m-0"><?= $value['descricao'] ?></span>
                                     </div>
                                     <div class="col-12 alinha-btn-center-small">
-                                        <a href="index?id=<?=$value['nome']?>" class="btn btn-primary mt-4">Solicitar Orçamento</a>
+                                        <a href="index?id=<?=$value['nome']?>&type=Orçamento" class="btn btn-primary mt-4">Solicitar Orçamento</a>
                                     </div>
                                 </div>
 
