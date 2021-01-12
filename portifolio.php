@@ -31,7 +31,14 @@ $arr_produtos = [
         'codigo'=> '0004',
         'tamanho' => 'Até 3m',
         'imagem'=> ['1'=>'img/catalogo/chapas.webp'],
-    ]
+    ],
+    'parafusos'=>[
+        'nome'=>'Perfis U e perfis C',
+        'descricao' => $text_chapas,
+        'codigo'=> '0005',
+        'tamanho' => 'Até 3m',
+        'imagem'=> ['1'=>'img/catalogo/perfis.webp'],
+        ]
 ];
 include_once('master.php');
 ?>
