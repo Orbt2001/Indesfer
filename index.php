@@ -294,7 +294,7 @@ include_once('master.php');
 							</div>
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" name="assunto" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+							<input type="text" class="form-control" value="asuidhajsuid" name="assunto" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
 							<div class="validation"></div>
 						</div>
 						<div class="form-group">
