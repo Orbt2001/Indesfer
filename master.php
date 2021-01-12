@@ -120,14 +120,14 @@ $arr_produtos = [
     ],
     'perfil'=>[
         'nome'=>'Perfis U e perfis C',
-        'descricao' => $txt_perfil,
+        'descricao' => $text_perfil,
         'codigo'=> '0005',
         'tamanho' => 'Sob Medida',
         'imagem'=> ['1'=>'img/catalogo/perfis.webp'],
     ],
     'Parafusos auto brocante'=>[
         'nome'=>'Parafusos auto brocante',
-        'descricao' => $txt_parafuso,
+        'descricao' => $text_parafuso,
         'codigo'=> '0006',
         'tamanho' => 'Sob Medida',
         'imagem'=> ['1'=>'img/catalogo/parafusos.webp'],
