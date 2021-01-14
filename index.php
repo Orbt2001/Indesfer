@@ -1,32 +1,4 @@
 <?php
-$text_termo = 'As telhas termoacústica são usadas quando se exige um excelente desempenho termoacústico. Oferecem maior resistência nas trocas de calor externo e interno, possibilitando significativa redução da utilização de equipamentos para refrigeração. Tem como característica ser retardante na ação de chamas e não absorver a água.';
-$text_zinco = 'As telhas de zinco oferecem tudo o que uma obra precisa, versatilidade, praticidade e economia, protegendo o aço da corrosão atmosférica.';
-$text_calhas = 'As calhas são os canais responsáveis pela coleta das águas pluviais (provindas das chuvas) e que correm pelos telhados e terraços de casas ou construções. Normalmente, as calhas são produzidas em aço galvanizado, ou seja, revestidos com uma camada de zinco para evitar a corrosão.';
-
-$arr_produtos = [
-	'termo' =>[
-		'nome'=>'Telha Termoacústica',
-		'descricao'=>$text_termo,
-		'codigo'=>'0001',
-		'tamanho'=>'Sob Medidaa',
-		'imagem'=>['1'=>'img/catalogo/termo.webp','2'=>'img/catalogo/Telha_Bandeja_Trapezio40_Lado.png'],
-	],
-	'zinco' =>[
-		'nome'=>'Telha de Zinco', 
-		'descricao'=>$text_zinco,
-		'codigo'=>'0002',
-		'tamanho'=>'Sob Medida',
-		'imagem'=>['1'=>'img/catalogo/zinco.webp','2'=>'img/catalogo/zinco-2.jpg'],
-	],
-	'calhas' =>[
-		'nome'=>'Calhas e Rufos', 
-		'descricao'=>$text_calhas,
-		'codigo'=>'0003',
-		'tamanho'=>'Sob Medida',
-		'imagem'=>['1'=>'img/catalogo/calhas.webp','2'=>'img/catalogo/calhas-2.png'],
-	],
-];
-
 include_once('master.php');
 ?>
 <!--==========================
@@ -322,11 +294,17 @@ include_once('master.php');
 							</div>
 						</div>
 						<div class="form-group">
-							<input type="text" class="form-control" name="assunto" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+							<input type="text" class="form-control" value="<?=$_GET['type']?>" name="assunto" id="subject" placeholder="Titulo" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
 							<div class="validation"></div>
 						</div>
 						<div class="form-group">
-							<textarea class="form-control" name="mensagem" id="mensagem" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem"></textarea>
+							<textarea class="form-control" name="mensagem" id="mensagem" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensagem">
+							<?php
+								if($_GET['id']){
+									echo $_GET['id'];
+								}
+							?>
+							</textarea>
 							<div class="validation"></div>
 						</div>
 						<div class="text-center"><button class="btn btn-primary px-4" id="enviarEmail">Enviar</button></div>
@@ -354,6 +332,13 @@ include_once('footer.php');
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <script>
+$('document').ready(function()
+{
+    $('textarea').each(function(){
+            $(this).val($(this).val().trim());
+        }
+    );
+});
 	$("#enviarEmail").click(function() {
 		$
 		$.ajax({
