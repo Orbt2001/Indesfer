@@ -14,11 +14,11 @@
     				<div class="col-lg-3 col-md-5 footer-links">
     					<h4>Mapa do site</h4>
     					<ul>
-    						<li><i class="ion-ios-arrow-right"></i> <a href="#">Inicio</a></li>
-    						<li><i class="ion-ios-arrow-right"></i> <a href="#">Produtos</a></li>
-    						<li><i class="ion-ios-arrow-right"></i> <a href="#">Catálogo</a></li>
-    						<li><i class="ion-ios-arrow-right"></i> <a href="#">Clientes</a></li>
-    						<li><i class="ion-ios-arrow-right"></i> <a href="#">Termos de Serviço</a></li>
+    						<li><i class="ion-ios-arrow-right"></i> <a href="index#intro">Inicio</a></li>
+    						<li><i class="ion-ios-arrow-right"></i> <a href="index#catalogo">Catálogo</a></li>
+    						<li><i class="ion-ios-arrow-right"></i> <a href="index#clients">Clientes</a></li>
+    						<li><i class="ion-ios-arrow-right"></i> <a href="index#contact">Contato</a></li>
+							<li><i class="ion-ios-arrow-right"></i> <a href="index#contact">Orçamento</a></li>
     					</ul>
     				</div>
 
