@@ -6,7 +6,7 @@
     <title>Indesfer</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="indesfer;ferro;aço," name="keywords">
-    <meta name="description" content="A description of the page" />
+    <meta name="description" content="Lider de mercado a mais de 20 anos em produtos para serralheria, corte e dobra." />
     <meta name="google-site-verification" content="..." />
 
     <!-- Favicons -->
