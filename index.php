@@ -113,13 +113,13 @@ include_once('master.php');
 				<div class="col-lg-4 col-md-6 catalogo-item filter-bobina wow fadeInUp" v-for="index in todos">
 					<div class="catalogo-wrap">
 						<figure>
-							<img src="img/catalogo/termo.webp" class="img-fluid w-100 h-100" alt="">
+							<img src="img/catalogo/tubos-metalon.jpg" class="img-fluid w-100 h-100" alt="">
 							<a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#termo"><i class="ion ion-android-open"></i></a>
 						</figure>
 
 						<div class="catalogo-info">
-							<h4><a href="#">Telha Termoacústica</a></h4>
-							<p>Sanduíche de EPS</p>
+							<h4><a href="#">Tubos e Metalons</a></h4>
+							<p>Tubos e Metalons fabricados em aço carbono</p>
 						</div>
 					</div>
 				</div>
@@ -139,7 +139,7 @@ include_once('master.php');
 				<div class="col-lg-4 col-md-6 catalogo-item filter-bobina wow fadeInUp" v-for="index in todos">
 					<div class="catalogo-wrap">
 						<figure>
-							<img src="img/catalogo/bobinas.png" class="img-fluid w-100 h-100" alt="">
+							<img src="img/catalogo/bobinas_galvanizadas.png" class="img-fluid w-100 h-100" alt="">
 							<a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#calhas"><i class="ion ion-android-open"></i></a>
 						</figure>
 
