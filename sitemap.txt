@@ -1,2 +1,4 @@
-http://www.example.com/index
-http://www.example.com/portifolio
+https://www.indesfer.com.br/index
+https://www.indesfer.com.br/index#contato
+https://www.indesfer.com.br/index#catalogo
+https://www.indesfer.com.br/portifolio
