@@ -97,7 +97,7 @@ include_once('master.php');
 			<header class="section-header">
 				<h3 class="section-title">Catalogo</h3>
 			</header>
-			<div class="row m-2">
+			<div class="row m-2 mb-4">
 				<div class="col-12 p-4 border border-danger">
 					<div class="row">
 						<div class="col-12 col-md-6 text-center">
@@ -139,13 +139,13 @@ include_once('master.php');
 				<div class="col-lg-4 col-md-6 catalogo-item filter-bobina wow fadeInUp" v-for="index in todos">
 					<div class="catalogo-wrap">
 						<figure>
-							<img src="img/catalogo/calhas.webp" class="img-fluid w-100 h-100" alt="">
+							<img src="img/catalogo/bobinas.png" class="img-fluid w-100 h-100" alt="">
 							<a href="#" class="link-details" title="More Details" data-toggle="modal" data-target="#calhas"><i class="ion ion-android-open"></i></a>
 						</figure>
 
 						<div class="catalogo-info">
-							<h4><a href="#">Calhas e Rufos</a></h4>
-							<p>Aço galvanizado</p>
+							<h4><a href="#">Bobinas Galvanizadas</a></h4>
+							<p>Bobinas Galvanizadas para Calheiros</p>
 						</div>
 					</div>
 				</div>
