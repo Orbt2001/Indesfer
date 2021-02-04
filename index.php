@@ -97,7 +97,7 @@ include_once('master.php');
 			<header class="section-header">
 				<h3 class="section-title">Catalogo</h3>
 			</header>
-			<div class="row m-5">
+			<div class="row m-3">
 				<div class="col-12 p-4 border border-danger">
 					<div class="row">
 						<div class="col-12 col-md-6 text-center">
