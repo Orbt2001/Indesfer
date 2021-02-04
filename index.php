@@ -15,7 +15,7 @@ include_once('master.php');
 				<div class="carousel-item active" style="background-image: url('img/slide/home.jpg');">
 					<div class="carousel-container">
 						<div class="carousel-content">
-							<h2>Bem vindo a Indesfer</h2>
+							<h2>Bem vindo a IndASDASDASDASDesfer</h2>
 							<p>Lider de mercado a mais de 20 anos em produtos para serralheria, corte e dobra.</p>
 							<a href="#catalogo" class="btn-get-started scrollto">Catalogo</a>
 						</div>
