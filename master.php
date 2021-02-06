@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Indesfer</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
     <meta content="indesfer;ferro;aço," name="keywords">
     <meta name="description" content="Lider de mercado a mais de 20 anos em produtos para serralheria, corte e dobra." />
     <meta name="google-site-verification" content="..." />
