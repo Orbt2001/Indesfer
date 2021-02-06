@@ -9,7 +9,7 @@ include_once('master.php');?>
 		<div class="container">
 
 
-  				<h1 class="my-4">Telha de Zinco</h1>
+  				<h1 class="my-4 text-white text-weight-bold">Telhas de Zinco</h1>
 
  
   					<div class="row">
@@ -23,7 +23,8 @@ include_once('master.php');?>
      					 <p>As telhas de zinco oferecem tudo o que uma obra precisa, 
 						  versatilidade, praticidade e economia. O produto recebe esse nome, 
 						  pois ele passa por um processo de zincagem, que está entre os mais eficientes e econômicos para 
-						  proteger o aço da corrosão atmosférica.</p>
+						  proteger o aço da corrosão atmosférica.
+						  as telhas de zinco apresentam boa durabilidade, podendo se manter de 40 a 70 anos, enquanto outros tipos de cobertura duram entre 12 e 20 anos;</p>
      				 <h3 class="my-3">Project Details</h3>
      					 <ul>
        						 <li>Lorem Ipsum</li>
