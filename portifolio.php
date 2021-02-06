@@ -1,11 +1,8 @@
 <?php
+
 include_once('master.php');
 ?>
-<!--==========================
-    Intro Section
-    ============================-->
-<section id="intro">
-<div class="container" id="intro">
+<div class="container-fluid" id="intro">
     <div class="row mx-0 my-5 justify-content-center d-flex">
         <div class="col-12 text-center">
             <header class="section-header">
@@ -42,25 +39,15 @@ include_once('master.php');
             <?php
             }
             ?>
-	</section><!-- #contact -->
-</main>
-
-<?php
-include_once('footer.php');
-?>
-
-<!-- Whatsapp -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://api.whatsapp.com/send?phone=5516991858042&text=Tudo%20bem%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento." target="_blank">
-	<img src="img/whatsapp.svg" class="fixed-bottom m-3 fadeInUp" height="40" alt="">
-</a>
-
-
-<!-- Whatsapp -->
-
-
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-</body>
-
-</html>
+        </div>
+    </div>    
+    <div class="container-fluid m-0 p-0">
+        <div class="row m-0">
+            <div class="col-12 p-0 m-0">
+            <?php
+        include_once('footer.php');
+        ?>
+            </div>
+        </div>
+    </div>
+</div>
