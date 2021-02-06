@@ -1,78 +1,75 @@
 <?php
-include_once('master.php');?>
+include_once('master.php'); ?>
 <!--==========================
     Container
     ============================-->
+<div class="container">
+
+
+	<h1 class="my-4 text-white font-weight-bold">Telhas de Zinco</h1>
+
+
+	<div class="row">
+
+		<div class="col-md-8">
+			<img class="img-fluid" src="http://placehold.it/750x500" alt="">
+		</div>
+
+		<div class="col-md-4">
+			<h3 class="my-3 text-white">Descrição Produto</h3>
+			<p>As telhas de zinco oferecem tudo o que uma obra precisa,
+				versatilidade, praticidade e economia. O produto recebe esse nome,
+				pois ele passa por um processo de zincagem, que está entre os mais eficientes e econômicos para
+				proteger o aço da corrosão atmosférica.
+				as telhas de zinco apresentam boa durabilidade, podendo se manter de 40 a 70 anos, enquanto outros tipos de cobertura duram entre 12 e 20 anos;</p>
+			<h3 class="my-3 text-white">Facilidades</h3>
+			<ul>
+				<li>Fácil mobilização e instalação;</li>
+				<li>Estável e seguras</li>
+				<li>Flexibilidade para curvatura.</li>
+				<li>Fechamentos laterais de edifícios industriais e comerciais;</li>
+			</ul>
+		</div>
+
+	</div>
 
 
 
-		<div class="container">
+	<h3 class="my-4 text-white">Detalhes</h3>
+
+	<div class="row">
+
+		<div class="col-md-3 col-sm-6 mb-4">
+			<a href="#">
+				<img class="img-fluid" src="img/catalogo/Telha-Trapezoidal.jpg" alt="">
+			</a>
+		</div>
+
+		<div class="col-md-3 col-sm-6 mb-4">
+			<a href="#">
+				<img class="img-fluid" src="img/catalogo/Telha-Trapezoidal.jpg" alt="">
+			</a>
+		</div>
+
+		<div class="col-md-3 col-sm-6 mb-4">
+			<a href="#">
+				<img class="img-fluid" src="img/catalogo/Telha-Trapezoidal.jpg" alt="">
+			</a>
+		</div>
+
+		<div class="col-md-3 col-sm-6 mb-4">
+			<a href="#">
+				<img class="img-fluid" src="img/catalogo/Telha-Trapezoidal.jpg" alt="">
+			</a>
+		</div>
+
+	</div>
 
 
-  				<h1 class="my-4 text-white font-weight-bold">Telhas de Zinco</h1>
-
- 
-  					<div class="row">
-
-   						 <div class="col-md-8">
-   						   <img class="img-fluid" src="http://placehold.it/750x500" alt="">
-   						 </div>
-
-  				  <div class="col-md-4">
-     				 <h3 class="my-3 text-white">Descrição Produto</h3>
-     					 <p>As telhas de zinco oferecem tudo o que uma obra precisa, 
-						  versatilidade, praticidade e economia. O produto recebe esse nome, 
-						  pois ele passa por um processo de zincagem, que está entre os mais eficientes e econômicos para 
-						  proteger o aço da corrosão atmosférica.
-						  as telhas de zinco apresentam boa durabilidade, podendo se manter de 40 a 70 anos, enquanto outros tipos de cobertura duram entre 12 e 20 anos;</p>
-     				 <h3 class="my-3 text-white">Facilidades</h3>
-     					 <ul>
-       						 <li>Fácil mobilização e instalação;</li>
-       						 <li>Estável e seguras</li>
-       						 <li>Flexibilidade para curvatura.</li>
-      					     <li>Fechamentos laterais de edifícios industriais e comerciais;</li>
-    				    </ul>
-   							 </div>
-
- 								 </div>
+</div>
 
 
-  
-  						<h3 class="my-4 text-white" >Detalhes</h3>
 
- 							 <div class="row">
-
-    							<div class="col-md-3 col-sm-6 mb-4">
-     						 <a href="#">
-           						 <img class="img-fluid" src="img/catalogo/Telha-Trapezoidal.jpg" alt="">
-          					</a>
-    							</div>
-
-   							 <div class="col-md-3 col-sm-6 mb-4">
-    					  <a href="#">
-          					  <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-        				  </a>
-    						</div>
-
-    						<div class="col-md-3 col-sm-6 mb-4">
-    					  <a href="#">
-           					 <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-         				 </a>
-    						</div>
-
-   								<div class="col-md-3 col-sm-6 mb-4">
-      						<a href="#">
-         					   <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          					</a>
-   							   </div>
-
-  									</div>
-
-
-									</div>
-
-	
- 
 <!--==========================
     Container
     ============================-->
