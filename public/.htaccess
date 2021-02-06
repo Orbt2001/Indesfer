@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+<FilesMatch "\.(php|html|htm)$">
+    <IfModule mod_headers>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>

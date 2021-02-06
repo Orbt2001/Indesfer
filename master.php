@@ -141,5 +141,11 @@ $arr_produtos = [
         'tamanho' => 'Sob Medida',
         'imagem'=> ['1'=>'img/catalogo/solda.webp'],
     ],
+    'Tubos e Metalons' => [
+        'nome'=>'Tubos e Metalons',
+        'descricao'=>'teste',
+        'codigo'=>'0008',
+        'tamanho'=>'Até 6m',
+    ],
 ];
 ?>
