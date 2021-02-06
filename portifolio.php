@@ -104,8 +104,6 @@ include_once('master.php');
 	}
 	?>
 	<!-- Modal 1 -->
-
-    
     <div class="container-fluid m-0 p-0">
         <div class="row m-0">
             <div class="col-12 p-0 m-0">
