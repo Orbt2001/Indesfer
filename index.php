@@ -8,7 +8,7 @@ include_once('master.php');
 	<div class="intro-container">
 		<div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
 
-			<ol class="carousel-indicators"></ol>
+			<!-- <ol class="carousel-indicators"></ol> -->
 
 			<div class="carousel-inner" role="listbox">
 
