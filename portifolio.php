@@ -1,5 +1,4 @@
 <?php
-
 include_once('master.php');
 ?>
 <div class="container-fluid" id="intro">
@@ -107,13 +106,13 @@ include_once('master.php');
 	<!-- Modal 1 -->
 
     
-</div>
-<div class="container-fluid m-0 p-0">
-    <div class="row m-0">
-        <div class="col-12 p-0 m-0">
-        <?php
-    include_once('footer.php');
-    ?>
+    <div class="container-fluid m-0 p-0">
+        <div class="row m-0">
+            <div class="col-12 p-0 m-0">
+            <?php
+        include_once('footer.php');
+        ?>
+            </div>
         </div>
     </div>
 </div>
