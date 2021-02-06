@@ -9,7 +9,7 @@ include_once('master.php');?>
 		<div class="container">
 
 
-  				<h1 class="my-4 text-white text-weight-bold">Telhas de Zinco</h1>
+  				<h1 class="my-4 text-white font-weight-bold">Telhas de Zinco</h1>
 
  
   					<div class="row">
@@ -19,7 +19,7 @@ include_once('master.php');?>
    						 </div>
 
   				  <div class="col-md-4">
-     				 <h3 class="my-3">Descrição Produto</h3>
+     				 <h3 class="my-3 text-light">Descrição Produto</h3>
      					 <p>As telhas de zinco oferecem tudo o que uma obra precisa, 
 						  versatilidade, praticidade e economia. O produto recebe esse nome, 
 						  pois ele passa por um processo de zincagem, que está entre os mais eficientes e econômicos para 
@@ -27,10 +27,10 @@ include_once('master.php');?>
 						  as telhas de zinco apresentam boa durabilidade, podendo se manter de 40 a 70 anos, enquanto outros tipos de cobertura duram entre 12 e 20 anos;</p>
      				 <h3 class="my-3">Project Details</h3>
      					 <ul>
-       						 <li>Lorem Ipsum</li>
-       						 <li>Dolor Sit Amet</li>
-       						 <li>Consectetur</li>
-      					     <li>Adipiscing Elit</li>
+       						 <li>Durabilidade: telhas de zinco podem durar de 40 a 70 anos, já as telhas convencionais possuem uma taxa de vida entre 12 e 20 anos.</li>
+       						 <li>Estável e seguro: as telhas de zinco não propagam fogo, o que a torna atrativa no quesito segurança;</li>
+       						 <li>Flexibilidade para curvatura.</li>
+      					     <li>Fechamentos laterais de edifícios industriais e comerciais;</li>
     				    </ul>
    							 </div>
 
