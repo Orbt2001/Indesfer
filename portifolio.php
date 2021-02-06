@@ -2,7 +2,7 @@
 
 include_once('master.php');
 ?>
-<div class="container-fluid" id="intro">
+<div class="container" id="intro">
     <div class="row mx-0 my-5 justify-content-center d-flex">
         <div class="col-12 text-center">
             <header class="section-header">
