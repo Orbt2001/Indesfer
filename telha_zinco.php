@@ -28,6 +28,9 @@ include_once('master.php'); ?>
       -webkit-align-items: center;
       align-items: center;
     }
+	.swiper-pagination{
+		color:red;
+	}
 	</style>
 <div class="container">
 
