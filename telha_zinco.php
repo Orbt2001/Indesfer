@@ -44,7 +44,7 @@ include_once('master.php');?>
 
     							<div class="col-md-3 col-sm-6 mb-4">
      						 <a href="#">
-           						 <img class="img-fluid" src="img/catalogo.jpteg" alt="">
+           						 <img class="img-fluid" src="img/catalogo.jpg" alt="">
           					</a>
     							</div>
 
