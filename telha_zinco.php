@@ -9,7 +9,7 @@ include_once('master.php');?>
 		<div class="container">
 
 
-  				<h1 class="my-4">Titulo (produto)</h1>
+  				<h1 class="my-4">Telha de Zinco</h1>
 
  
   					<div class="row">
@@ -20,7 +20,10 @@ include_once('master.php');?>
 
   				  <div class="col-md-4">
      				 <h3 class="my-3">Descrição Produto</h3>
-     					 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+     					 <p>As telhas de zinco oferecem tudo o que uma obra precisa, 
+						  versatilidade, praticidade e economia. O produto recebe esse nome, 
+						  pois ele passa por um processo de zincagem, que está entre os mais eficientes e econômicos para 
+						  proteger o aço da corrosão atmosférica.</p>
      				 <h3 class="my-3">Project Details</h3>
      					 <ul>
        						 <li>Lorem Ipsum</li>
