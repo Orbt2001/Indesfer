@@ -1,0 +1,36 @@
+.body {
+	background-color: #363636;
+}
+
+.nav {
+	width: 100%;
+	height: 80px;
+	background: black;
+	position: fixed;
+	z-index: 9999;
+}
+
+.navdiv {
+	color: white;
+	margin-top: -3.5%;
+	margin-left: 30%;
+	-webkit-animation: animation 2s;
+	-webkit-animation-delay: animation 2s;
+}
+
+@keyframes animation {
+	0% {
+		opacity: 0;
+		margin-left: -30%;
+	}
+	100% {
+		opacity: 1;
+		margin-left: 30%;
+	}
+}
+
+.arrow button {
+	background: transparent;
+	border: none;
+	padding: 15px 30px;
+}
