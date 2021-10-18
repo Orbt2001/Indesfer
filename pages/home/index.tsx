@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/rules-of-hooks */
 import type { NextPage } from 'next'
@@ -44,13 +45,21 @@ const Home: NextPage = () => {
 					href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 					integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
 				/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+					rel="stylesheet"
+				/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+					rel="stylesheet"
+				/>
 			</Head>
 			<body className={style.body}>
 				{/*NAVBAR*/}
 				<nav className={style.nav}>
 					<div className={style.arrow}>
 						<button onClick={onClick}>
-							<img src="arrow.png" alt="Arrow" height="40" />
+							<img src="arrow.png" alt="Arrow" height="30" />
 						</button>
 						{shownav ? <Text /> : null}
 					</div>
@@ -61,6 +70,27 @@ const Home: NextPage = () => {
 	)
 }
 
-const Text = () => <div className={style.navdiv}>You clicked the button!</div>
+const Text = () => (
+	<div className={style.navdiv}>
+		<div className={style.logo}>
+			<img src="logo.webp" alt="Indesfer Logo" />
+		</div>
+
+		<ul>
+			<li>
+				<a href="">Inicio</a>
+			</li>
+			<li>
+				<a href="">Catálogo</a>
+			</li>
+			<li>
+				<a href="">clientes</a>
+			</li>
+			<li>
+				<a href="">contato</a>
+			</li>
+		</ul>
+	</div>
+)
 
 export default Home
