@@ -5,7 +5,7 @@
 /*NAV*/
 .nav {
 	width: 100vw;
-	background: black;
+	background: none;
 	position: fixed;
 	z-index: 9999;
 	display: flex;
@@ -13,12 +13,13 @@
 	justify-content: flex-end;
 }
 
-.nav button{
-	background-color: rgba(0,0,0,0);
+.nav button {
+	background-color: rgba(0, 0, 0, 0);
 	border: none;
+	cursor: pointer;
 }
 .navdiv {
-	background-color: rgba(0,0,0,0.75);
+	background-color: rgba(0, 0, 0, 0.75);
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -32,15 +33,23 @@
 	padding: 0;
 	display: flex;
 }
-.invertImage{
+.invertImage {
+	cursor: pointer;
 	transform: rotate(180deg);
 }
 
-.navdiv ul li img:hover{
+.navdiv ul li img:hover {
 	cursor: pointer;
 }
-.navdiv ul li:nth-child(4){
+.navdiv ul li:nth-child(4) {
 	margin-left: 30px;
+}
+.center {
+	padding: 0px 25px;
+	background-color: rgba(0, 0, 0, 0.75);
+	border-radius: 0px 0px 0px 10px;
+	display: flex;
+	align-items: center;
 }
 .navdiv ul li {
 	font-weight: bold;
@@ -49,7 +58,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	animation: animation 1.5s ;
+	animation: animation 1.5s;
 }
 .navdiv a {
 	color: rgb(228, 228, 228);

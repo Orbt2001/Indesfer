@@ -1,7 +1,10 @@
 .body {
 	background-color: #363636;
 }
-
+.swiper-button-next {
+	background-color: red !important;
+	color: red !important;
+}
 /*NAV*/
 .nav {
 	width: 100vw;
@@ -101,8 +104,13 @@
 	text-align: center;
 	width: 100vw;
 	height: 100vh;
-	margin-top: -15%;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	color: #fff;
+	background-color: rgba(0, 0, 0, 0.25);
 	font-family: 'Poppins', sans-serif;
 }
 .txtslide h2 {
@@ -134,21 +142,9 @@
 	text-align: center;
 	z-index: 999;
 }
-.sobretitle h2 {
-	font-size: 3rem;
-	padding: 25px 10px;
+.sobretitle h1 {
+	font-size: 32px;
 }
-.sobretitle h2::after {
-	content: '';
-	position: relative;
-	display: block;
-	width: 120px;
-	height: 3px;
-	background: #f90000;
-	bottom: 1px;
-	left: calc(50% - 60px);
-}
-
 .bg {
 	position: relative;
 	text-align: center;

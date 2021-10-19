@@ -23,8 +23,6 @@ import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper'
 SwiperCore.use([Autoplay, Pagination, Navigation])
 
 const Home: NextPage = () => {
-	const [shownav, setShowNav] = useState(false)
-	const onClick = () => setShowNav(!shownav)
 	return (
 		<>
 			<Head>
@@ -70,24 +68,6 @@ const Home: NextPage = () => {
 			</Head>
 			<body className={style.body}>
 				{/*NAVBAR*/}
-				<nav className={style.nav}>
-					{shownav ? (
-						<Navbar onClick={onClick} />
-					) : (
-						<>
-							<div className={style.center}>
-								<button onClick={onClick}>
-									<img
-										src="arrow.png"
-										alt="Arrow"
-										height="30"
-									/>
-								</button>
-								<img src="logo.webp" alt="Indesfer Logo" />
-							</div>
-						</>
-					)}
-				</nav>
 				<main>
 					<Swiper
 						spaceBetween={30}
@@ -161,34 +141,32 @@ const Home: NextPage = () => {
 							</div>
 						</SwiperSlide>
 					</Swiper>
+					<section>
+						<div className={style.sobretitle}>
+							<h1>Sobre</h1>
+						</div>
+						<div className={style.bg}>
+							<p>
+								Lorem ipsum, dolor sit amet consectetur
+								adipisicing elit. Architecto voluptatum rerum
+								doloremque consequatur dolorum soluta expedita
+								eos quia tempora a eaque distinctio quas
+								temporibus nesciunt optio, dignissimos facilis
+								molestias tempore! Obcaecati sed inventore
+								laboriosam, dolores consequuntur maiores dolore
+								a aperiam eum officiis, eius tenetur, ipsam
+								corporis? Veritatis corrupti quo cumque officia
+								accusantium sint ducimus, odio ipsum animi
+								maxime dicta exercitationem. Lorem, ipsum dolor
+								sit amet consectetur adipisicing elit. Illo
+								eligendi, aut facilis fuga quasi accusamus
+								officia soluta quis esse commodi iure itaque
+								officiis labore ipsa repellendus sequi possimus?
+								Dignissimos, iure!
+							</p>
+						</div>
+					</section>
 				</main>
-				<section>
-					<div className={style.sobretitle}>
-						<h2>SOBRE</h2>
-					</div>
-					<div className={style.bg}>
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem Ipsum has been the
-							industrys standard dummy text ever since the 1500s,
-							when an unknown printer took a galley of type and
-							scrambled it to make a type specimen book. It has
-							survived not only five centuries, but also the leap
-							into electronic typesetting, remaining essentially
-							unchanged. It was popularised in the 1960s with the
-							release of Letraset sheets containing Lorem Ipsum
-							passages, and more recently with desktop publishing
-							software like Aldus PageMaker including versions of
-							Lorem Ipsum.
-						</p>
-					</div>
-				</section>
-
-				<div className={style.catalogo}>
-					<div className={style.title}>
-						<h2>CATÁLOGO</h2>
-					</div>
-				</div>
 			</body>
 		</>
 	)
