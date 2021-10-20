@@ -140,11 +140,12 @@
 	font-family: 'Poppins', sans-serif;
 	margin-top: -3.3%;
 	text-align: center;
-	z-index: 999;
 }
 .sobretitle h1 {
-	font-size: 32px;
+	padding: 40px;
+	font-size: 38px;
 }
+
 .bg {
 	position: relative;
 	text-align: center;
@@ -154,6 +155,7 @@
 	color: rgb(255, 255, 255);
 	font-size: 1.5rem;
 	padding: 20px;
+	margin-bottom: 40px;
 }
 
 /*CATALOGO*/
@@ -161,20 +163,11 @@
 	width: 100%;
 	height: 80vh;
 	background: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
 }
 .title h2 {
-	color: #fff;
-	text-align: center;
-	font-size: 3rem;
+	font-size: 38px;
 	padding: 25px 10px;
-}
-.title h2::after {
-	content: '';
-	position: relative;
-	display: block;
-	width: 120px;
-	height: 3px;
-	background: #f90000;
-	bottom: 1px;
-	left: calc(50% - 60px);
 }

@@ -147,26 +147,33 @@ const Home: NextPage = () => {
 						</div>
 						<div className={style.bg}>
 							<p>
-								Lorem ipsum, dolor sit amet consectetur
-								adipisicing elit. Architecto voluptatum rerum
-								doloremque consequatur dolorum soluta expedita
-								eos quia tempora a eaque distinctio quas
-								temporibus nesciunt optio, dignissimos facilis
-								molestias tempore! Obcaecati sed inventore
-								laboriosam, dolores consequuntur maiores dolore
-								a aperiam eum officiis, eius tenetur, ipsam
-								corporis? Veritatis corrupti quo cumque officia
-								accusantium sint ducimus, odio ipsum animi
-								maxime dicta exercitationem. Lorem, ipsum dolor
-								sit amet consectetur adipisicing elit. Illo
-								eligendi, aut facilis fuga quasi accusamus
-								officia soluta quis esse commodi iure itaque
-								officiis labore ipsa repellendus sequi possimus?
-								Dignissimos, iure!
+								A Indesfer atua no mercado de corte e dobra de
+								chapas, fabricação de telhas galvanizadas e
+								termoacústica, além de perfis estruturais que
+								atendem as mais variadas necessidades do
+								mercado. A cada ano, a indesfer tem se
+								aperfeiçoado através de lançamentos de novos
+								produtos e adaptações às normas técnicas de
+								qualidade exigidas pelo mercado. A Indesfer atua
+								no mercado de corte e dobra de chapas,
+								fabricação de telhas galvanizadas e
+								termoacústica, além de perfis estruturais que
+								atendem as mais variadas necessidades do
+								mercado. A cada ano, a indesfer tem se
+								aperfeiçoado através de lançamentos de novos
+								produtos e adaptações às normas técnicas de
+								qualidade exigidas pelo mercado.
 							</p>
 						</div>
 					</section>
 				</main>
+				<section>
+					<div className={style.catalogo}>
+						<div className={style.title}>
+							<h2>Catálogo</h2>
+						</div>
+					</div>
+				</section>
 			</body>
 		</>
 	)
