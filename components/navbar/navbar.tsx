@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useState } from 'react'
 import style from './style.module.css'
 
@@ -24,10 +25,10 @@ export default function Navbar() {
 							<img src="logo.webp" alt="Indesfer Logo" />
 						</li>
 						<li>
-							<a href="">Inicio</a>
+							<a href="#">Inicio</a>
 						</li>
 						<li>
-							<a href="">Catálogo</a>
+							<a href="#catalogo">Catálogo</a>
 						</li>
 						<li>
 							<a href="">clientes</a>

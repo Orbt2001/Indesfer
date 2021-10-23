@@ -169,7 +169,7 @@ const Home: NextPage = () => {
 				</main>
 				<section>
 					<div className={style.catalogo}>
-						<div className={style.title}>
+						<div id="catalogo" className={style.title}>
 							<h2>Catálogo</h2>
 						</div>
 					</div>
